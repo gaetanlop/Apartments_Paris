@@ -5,5 +5,4 @@ Recently, my family and I decided to buy a new apartment in Paris. It gave me th
 - Create an estimator that predicts the sale price of apartments in 2020 in Paris. 
 - Understand the main drivers of the sale price of those apartments.
 
-## Code
-- For stacking: https://towardsdatascience.com/a-guide-to-ensemble-learning-d3686c9bed9a
+
