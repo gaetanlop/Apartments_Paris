@@ -7,3 +7,4 @@ Recently, my family and I decided to buy a new apartment in Paris. It gave me th
 
 ## Code
 - for stacking: https://towardsdatascience.com/a-guide-to-ensemble-learning-d3686c9bed9a
+- FlaskAPI tutorial: https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
