@@ -1,0 +1,178 @@
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Apartment Price Prediction in Paris</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<meta charset="UTF-8">
+<body>
+<div class="img"></div>
+
+<form class="form">
+    <h2>Area </h2>
+    <input class="area"   id="uiSqft" class="floatLabel" name="Squareft" value="30">
+    <h2>Number of rooms</h2>
+    <div class="switch-field">
+        <input type="radio" id="radio-bhk-1" name="rooms" value="1"/>
+        <label for="radio-bhk-1">1</label>
+        <input type="radio" id="radio-bhk-2" name="rooms" value="2" checked/>
+        <label for="radio-bhk-2">2</label>
+        <input type="radio" id="radio-bhk-3" name="rooms" value="3"/>
+        <label for="radio-bhk-3">3</label>
+        <input type="radio" id="radio-bhk-4" name="rooms" value="4"/>
+        <label for="radio-bhk-4">4</label>
+        <input type="radio" id="radio-bhk-5" name="rooms" value="5"/>
+        <label for="radio-bhk-5">5</label>
+        <input type="radio" id="radio-bhk-6" name="rooms" value="6"/>
+        <label for="radio-bhk-6">6</label>
+        <input type="radio" id="radio-bhk-7" name="rooms" value="7" />
+        <label for="radio-bhk-7">7</label>
+        <input type="radio" id="radio-bhk-8" name="rooms" value="8"/>
+        <label for="radio-bhk-8">8</label>
+        <input type="radio" id="radio-bhk-9" name="rooms" value="9"/>
+        <label for="radio-bhk-9">9</label>
+    </div>
+</form>
+</form>
+<form class="form">
+    <h2>Number of bedrooms</h2>
+    <div class="switch-field">
+        <input type="radio" id="radio-bed-0" name="bedrooms" value="0"/>
+        <label for="radio-bed-0">0</label>
+        <input type="radio" id="radio-bed-1" name="bedrooms" value="1"/>
+        <label for="radio-bed-1">1</label>
+        <input type="radio" id="radio-bed-2" name="bedrooms" value="2" checked/>
+        <label for="radio-bed-2">2</label>
+        <input type="radio" id="radio-bed-3" name="bedrooms" value="3"/>
+        <label for="radio-bed-3">3</label>
+        <input type="radio" id="radio-bed-4" name="bedrooms" value="4"/>
+        <label for="radio-bed-4">4</label>
+        <input type="radio" id="radio-bed-5" name="bedrooms" value="5"/>
+        <label for="radio-bed-5">5</label>
+        <input type="radio" id="radio-bed-6" name="bedrooms" value="6"/>
+        <label for="radio-bed-6">6</label>
+    </div>
+</form>
+<form class="form">
+    <h2>Bath</h2>
+    <div class="switch-field">
+        <input type="radio" id="radio-bath-0" name="uiBathrooms" value="0"/>
+        <label for="radio-bath0">0</label>
+        <input type="radio" id="radio-bath-1" name="uiBathrooms" value="1"/>
+        <label for="radio-bath-1">1</label>
+        <input type="radio" id="radio-bath-2" name="uiBathrooms" value="2" checked/>
+        <label for="radio-bath-2">2</label>
+        <input type="radio" id="radio-bath-3" name="uiBathrooms" value="3"/>
+        <label for="radio-bath-3">3</label>
+        <input type="radio" id="radio-bath-4" name="uiBathrooms" value="4"/>
+        <label for="radio-bath-4">4</label>
+        <input type="radio" id="radio-bath-5" name="uiBathrooms" value="5"/>
+        <label for="radio-bath-5">5</label>
+    </div>
+
+<form class ="form">
+    <h2> Floor of the apartment </h2>
+    <input class="area"   id="uifloor_ap" class="floatLabel" name="Squareft" value="0">
+    <h2> Number of floors in the building </h2>
+    <input class="area"   id="uifloor_building" class="floatLabel" name="Squareft" value="0">
+    <h2>Cellar</h2>
+    <div class="switch-field">
+        <input type="radio" id="cellaryes" name="cellar" value="Yes"/>
+        <label for="cellaryes">Yes</label>
+        <input type="radio" id="cellarno" name="cellar" value="No" checked/>
+        <label for="cellarno">No</label>
+    </div>
+</form>
+
+<form class ="form">
+    <h2>Parking</h2>
+    <div class="switch-field">
+            <input type="radio" id="parkingyes" name="parking" value="Yes"/>
+            <label for="parkingyes">Yes</label>
+            <input type="radio" id="parkingno" name="parking" value="No" checked/>
+            <label for="parkingno">No</label>
+    </div>
+</form>
+
+
+<form class ="form">
+    <h2>Balcony/Patio</h2>
+    <div class="switch-field">
+        <input type="radio" id="Nothing_balc" name="balc" value="0"/>
+        <label for="Nothing_balc">Nothing</label>
+        <input type="radio" id="balc" name="balc" value="Terrasse" checked/>
+        <label for="balc">Patio</label>
+        <input type="radio" id="patio" name="balc" value="Balcon" checked/>
+        <label for="patio">Balcony</label>
+        <input type="radio" id="patio_balcony" name="balc" value="Terrasse, balcon" checked/>
+        <label for="patio_balcony">Patio and balcony</label>
+    </div>
+</form>
+
+<form class ="form">
+    <h2>Renovated</h2>
+    <div class="switch-field">
+        <input type="radio" id="renovatedyes" name="uireno" value="Yes"/>
+        <label for="renovatedyes">Yes</label>
+        <input type="radio" id="renovatedno" name="uireno" value="No" checked/>
+        <label for="renovatedno">No</label>
+    </div>
+</form>
+
+<form class ="form">
+    <h2>Ground Floor</h2>
+    <div class="switch-field">
+        <input type="radio" id="groundflooryes" name="gf" value="Yes"/>
+        <label for="groundflooryes">Yes</label>
+        <input type="radio" id="groundfloorno" name="gf" value="No" checked/>
+        <label for="groundfloorno">No</label>
+    </div>
+</form>
+
+<form class="form">
+    <h2>Last Floor</h2>
+    <div class="switch-field">
+        <input type="radio" id="lastflooryes" name="lf" value="Yes"/>
+        <label for="lastflooryes">Yes</label>
+        <input type="radio" id="lastfloorno" name="lf" value="No" checked/>
+        <label for="lastfloorno">No</label>
+    </div>
+</form>
+
+
+<form class="form">
+    <h2>District</h2>
+    <div>
+        <select class="location" name="" id="uiLocations">
+            <option value="" disabled="disabled" selected="selected">Choose a District</option>
+            <option>1e</option>
+            <option>2e</option>
+            <option>3e</option>
+            <option>4e</option>
+            <option>5e</option>
+            <option>6e</option>
+            <option>7e</option>
+            <option>8e</option>
+            <option>9e</option>
+            <option>10e</option>
+            <option>11e</option>
+            <option>12e</option>
+            <option>13e</option>
+            <option>14e</option>
+            <option>15e</option>
+            <option>16e</option>
+            <option>17e</option>
+            <option>18e</option>
+            <option>19e</option>
+            <option>20e</option>
+        </select>
+    </div>
+    <button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+    <div id="uiEstimatedPrice" class="result">	<h2></h2> </div>
+</form>
+
+
+
+</body>
+</html>
