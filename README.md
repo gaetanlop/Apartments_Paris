@@ -17,3 +17,5 @@ Recently, my family and I decided to buy a new apartment in Paris. It gave me th
 **FlaskAPI tutorial:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
 
 **UI inspiration:** https://github.com/codebasics/py/tree/master/DataScience/BangloreHomePrices
+
+**AWS EC2 Tutorial:** https://www.youtube.com/watch?v=q8NOmLD5pTU&t=373s
