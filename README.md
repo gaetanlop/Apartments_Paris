@@ -66,5 +66,7 @@ Before starting the EDA I made a few assumptions that I tried to find if they we
 I made a univariate and bivariate analysis of the column SalePrice witht the features that I thought were most interesting.I looked at the distributions of the numerical features and I transformed the skewed numerical features using log trnasformation. I also looked at the value counts for the various categorical variables. I detected and removed outliers. I explored the colinearity between the different features. I made pivot_tables to undertand the relationship between SalePrice and the different categorical features.
 Below are a few highlights from the things I looked at.
 
+![alt text] (https://github.com/gaetanlop/ds_project_house/blob/master/bedrooms.PNG)
+
 ## Model Building
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
