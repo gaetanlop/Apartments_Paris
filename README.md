@@ -50,6 +50,15 @@ Before going to the EDA or the Model Building part, I needed to clean up the dat
 * Created two categoricals features 'Las floor' and 'Ground Floor' based on the number of floors of the building and the floor of the apartment.
 
 ## Exploratory Data Analysis
+Before starting the EDA I made a few assumptions that I tried to find if they were valid or not.
+ * Obviously, the higher the area of a home, the higher the price of the apartment.
+ * The higher the number of rooms,bedrooms,bathrooms, the higher the price of the apartment. The number of rooms/bedrooms/bathrooms must be correlated with the area.
+ * The height of the building might be negatively correlated with the price.
+ * The presence of a Parking, a Cellar or a balcony must increase the price.
+ * I have not any assumptions regarding the type of Heating.
+ * In Paris some districts are way more expensive than others.
+ * I think that an apartment at the Last floor is more expensive. At the contrary, an apartment at the ground floor must be less expensive. An apartment that have been renovated recently must be more expensive too.
+ 
 I made a univariate and bivariate analysis of the column SalePrice witht the features that I thought were most interesting.I looked at the distributions of the data and the value counts for the various categorical variables. I detected and removed outliers. I explored the colinearity between the different features. I made pivot_tables to undertand the relationship between SalePrice and the different categorical features.
 Below are a few highlights from the things I looked at.
 
