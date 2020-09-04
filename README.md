@@ -27,8 +27,21 @@ Scraped more than 4000  sell announcements of apartments in Paris from logic-imm
 * Price
 * Number of rooms
 * Number of bedrooms
-* District
+* Location
 * Description of the property: Cellar, Parking, Balcony, number of floors of the building, floor of the apartment.
 
 ## Data Cleaning
 Before going to the EDA or the Model Building part, I needed to clean up the data so that it can be used by a model or for an Exploratory Data Analysis. I made the following changes and created the following variables:
+* From Location I extracted the district.
+* Parsed numeric data out of area
+* Parsed numeric data out of number of rooms
+* Parsed numeric data out of number of bedrooms
+* Made columns for if different caracteristics of an apartment were listed in the apartment description:
+  * Extracting the number of floor of the building
+  * Extracting where the apartment is located in the building
+  * Extracting the number of bathrooms
+  * Cellar
+  * Parking
+  * Balcony
+  * Heating type
+  * Renovated
