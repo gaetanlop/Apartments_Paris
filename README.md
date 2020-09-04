@@ -46,4 +46,12 @@ Before going to the EDA or the Model Building part, I needed to clean up the dat
   * Balcony
   * Heating type
   * Renovated
-* Created a new categorical feature 'Building Height' based on the number of floors of the building.
+* Created a categorical feature 'Building Height' based on the number of floors of the building.
+* Created two categoricals features 'Las floor' and 'Ground Floor' based on the number of floors of the building and the floor of the apartment.
+
+## Exploratory Data Analysis
+I made a univariate and bivariate analysis of the column SalePrice witht the features that I thought were most interesting.I looked at the distributions of the data and the value counts for the various categorical variables. I detected and removed outliers. I explored the colinearity between the different features. I made pivot_tables to undertand the relationship between SalePrice and the different categorical features.
+Below are a few highlights from the things I looked at.
+
+## Model Building
+First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
