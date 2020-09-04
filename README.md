@@ -72,3 +72,12 @@ Below are a few highlights from the things I looked at.
 
 ## Model Building
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
+
+## Model performance
+
+
+## Productionization
+
+
+
+
