@@ -33,6 +33,7 @@ Scraped more than 4000  sell announcements of apartments in Paris from logic-imm
 ## Data Cleaning
 Before going to the EDA or the Model Building part, I needed to clean up the data so that it can be used by a model or for an Exploratory Data Analysis. I made the following changes and created the following variables:
 * From Location I extracted the district.
+* Parsed numeric data out of Price
 * Parsed numeric data out of area
 * Parsed numeric data out of number of rooms
 * Parsed numeric data out of number of bedrooms
@@ -45,3 +46,4 @@ Before going to the EDA or the Model Building part, I needed to clean up the dat
   * Balcony
   * Heating type
   * Renovated
+* Created a new categorical feature 'Building Height' based on the number of floors of the building.
