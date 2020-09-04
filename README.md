@@ -67,6 +67,7 @@ I made a univariate and bivariate analysis of the column SalePrice witht the fea
 Below are a few highlights from the things I looked at.
 
 ![alt text](https://github.com/gaetanlop/ds_project_house/blob/master/bedrooms.PNG)
+![alt text](https://github.com/gaetanlop/ds_project_house/blob/master/disrict_average_price.PNG)
 
 ## Model Building
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
