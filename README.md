@@ -8,6 +8,10 @@ Recently, my family and I decided to buy a new apartment in Paris. It gave me th
 *   Built a client facing API using flask.
 *   Used AWS to put the model in production.
 
+# Final Product
+
+XXXXX
+
 ## Code and Resources Used
 
 **Python Version:** 3.7
