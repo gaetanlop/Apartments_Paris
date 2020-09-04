@@ -12,9 +12,11 @@ Recently, my family and I decided to buy a new apartment in Paris. It gave me th
 
 **Python Version:** 3.7
 
+**For Web Framework Requirements:** ```pip install -r requirements.txt```
+
 **For stacking:** https://towardsdatascience.com/a-guide-to-ensemble-learning-d3686c9bed9a
 
-**FlaskAPI tutorial:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
+**Flask Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
 
 **UI inspiration:** https://github.com/codebasics/py/tree/master/DataScience/BangloreHomePrices
 
