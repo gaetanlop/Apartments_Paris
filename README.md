@@ -74,7 +74,11 @@ Below are a few highlights from the things I looked at.
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
 
 ## Model performance
-
+The Random Forest model far outperformed the other approaches on the test and validation sets.
+* **Linear Regression**: MAE
+* **Random Forest**: MAE
+* **XGBoost**: MAE
+* **Stacked Model**: MAE
 
 ## Productionization
 
