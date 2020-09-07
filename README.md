@@ -81,11 +81,11 @@ I tried three different models and evaluated them using Mean Absolute Error:
 * **Stacked Model**: I wanted to implement what I learned recently on Model Stacking. It works well.
 
 ## Model performance
-The Random Forest model far outperformed the other approaches on the test and validation sets.
-* **Linear Regression**: MAE
-* **Random Forest**: MAE
-* **XGBoost**: MAE
-* **Stacked Model**: MAE
+The Stack Model outperformed the other approaches on the test and validation sets. Here are the results in K euros.
+* **Linear Regression**: MAE= 82.6
+* **Random Forest**: MAE=77.6
+* **XGBoost**: MAE=80.5
+* **Stacked Model**: MAE=74.9
 
 ## Productionization
 
