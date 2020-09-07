@@ -72,6 +72,13 @@ Below are a few highlights from the things I looked at.
 
 ## Model Building
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
+I tried three different models and evaluated them using Mean Absolute Error:
+* **Linear Regression**: - Baseline for the model
+* **Lasso**: - Because some independent variables were highly correlated and because of the sparse data, I thought that using a normalized regression like lasso would be a good idea.  
+* **Ridge**: - Because some independent variables were highly correlated and because of the sparse data, I thought that using a normalized regression like ridge would be a good idea.  
+* **Random Forest** 
+* **XGBoost**
+* **Stacked Model**: I wanted to implement what I learned recently on Model Stacking. It works well.
 
 ## Model performance
 The Random Forest model far outperformed the other approaches on the test and validation sets.
