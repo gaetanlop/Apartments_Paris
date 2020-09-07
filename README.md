@@ -9,7 +9,7 @@ Recently, my family and I decided to buy a new apartment in Paris. It gave me th
 *   Used HTML, CSS, JS for the UI.
 *   Used AWS to put the model in production.
 
-## Final Product Hosted On AN AWS EC2 Instance
+## Final Product Hosted On An AWS EC2 Instance
 
 XXXXX
 
