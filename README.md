@@ -6,6 +6,7 @@ Recently, my family and I decided to buy a new apartment in Paris. It gave me th
 *   Engineered features from the text of each announcements description to get the different caracteristics of an apartment in Paris such as balcony, patio, cellar, parking, floor of the apartment, floor of the building.
 *   Optimized Linear, Lasso, Ridge, Random Forest Regressors and XGBoost Regressors using RandomizedSearchCV to reach the best model.
 *   Built a client facing API using flask.
+*   Used HTML, CSS, JS for the UI.
 *   Used AWS to put the model in production.
 
 ## Final Product Hosted On AN AWS EC2 Instance
