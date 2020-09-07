@@ -4,7 +4,7 @@ Recently, my family and I decided to buy a new apartment in Paris. It gave me th
 * Created a tool that estimates the price of an apartment in Paris in 2020 (MAE ~ € 74 K) to help people finding the best price to sold or buy an apartment.
 *   Scraped more than 4000 sell announcements of apartments in Paris from LogicImmo website using python and selenium.
 *   Engineered features from the text of each announcements description to get the different caracteristics of an apartment in Paris such as balcony, patio, cellar, parking, floor of the apartment, floor of the building.
-*   Optimized Linear, Lasso, Ridge, and Random Forest Regressors using GridsearchCV to reach the best model.
+*   Optimized Linear, Lasso, Ridge, Random Forest Regressors and XGBoost Regressors using RandomizedSearchCV to reach the best model.
 *   Built a client facing API using flask.
 *   Used AWS to put the model in production.
 
@@ -87,7 +87,7 @@ The Stack Model outperformed the other approaches on the test and validation set
 * **XGBoost**: MAE=80.5
 * **Stacked Model**: MAE=74.9
 
-## Productionization
+## Productionization and Deployment
 
 
 
