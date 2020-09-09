@@ -11,7 +11,7 @@ Recently, my family and I decided to buy a new apartment in Paris. It gave me th
 
 ## Final Product Hosted On An AWS EC2 Instance
 
-XXXXX
+ADD A PICTURE OF THE WEBSITE
 
 ## Code and Resources Used
 
@@ -89,7 +89,7 @@ The Stack Model outperformed the other approaches on the test and validation set
 * **Stacked Model**: MAE=74.9
 
 ## Productionization and Deployment
-
+ADD SOMETHING ON IT. WHAT I HAVE DONE
 
 
 
