@@ -55,7 +55,7 @@ Before going to the EDA or the Model Building part, I needed to clean up the dat
 * Created two categoricals features 'Las floor' and 'Ground Floor' based on the number of floors of the building and the floor of the apartment.
 
 ## Exploratory Data Analysis
-Before starting the EDA I made a few assumptions that I tried to find if they were valid or not.
+Before starting the EDA I made a few assumptions, I tried to find out if they were valid or not.
  * Obviously, the higher the area of a home, the higher the price of the apartment.
  * The higher the number of rooms,bedrooms,bathrooms, the higher the price of the apartment. The number of rooms/bedrooms/bathrooms must be correlated with the area.
  * The height of the building might be negatively correlated with the price.
