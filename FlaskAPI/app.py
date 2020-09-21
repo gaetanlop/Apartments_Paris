@@ -9,6 +9,8 @@ import pandas as pd
 
 app = Flask(__name__)
 CORS(app)
+app._static_folder = os.path.abspath("templates/static/")
+
 def load_models():
     file_name = "models/model_file.p"
     with open(file_name, 'rb') as pickled:
