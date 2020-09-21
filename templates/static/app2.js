@@ -97,6 +97,7 @@ function OnClick(){
 
 function onClickedEstimatePrice() {
 
+
     var area = parseInt(document.getElementById("uiSqft").value);
     var rooms = parseInt(getrooms());
     var bedrooms = parseInt(getbedrooms());
@@ -117,12 +118,13 @@ function onClickedEstimatePrice() {
     var tab = [area,rooms,bedrooms,bath,apart_floor,build_floor,cellar,parking,balc,renovated,gf,lf,district]
     var data = {input: JSON.stringify(tab)}
 
-    $.post("https://house-price-prediction-paris.herokuapp.com/predict", data
-    ,function(data, status) {
-        console.log(data.estimated_price);
-       estPrice.innerHTML= "<h2>" + data.estimated_price.toString() + " € </h2>";
-        console.log(status);
-    });
+
+    $.post(url, data
+        ,function(data, status) {
+            console.log(data.estimated_price);
+            estPrice.innerHTML= "<h2>" + data.estimated_price.toString() + " € </h2>";
+            console.log(status);
+        });
 
     console.log(data.input);
 
