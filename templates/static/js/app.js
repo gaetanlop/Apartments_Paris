@@ -112,7 +112,7 @@ function onClickedEstimatePrice() {
     var lf = getlf();
     var district= document.getElementById("uiLocations").value;
     //console.log([area,rooms,bedrooms,bath,apart_floor,build_floor,cellar,parking,balc,renovated,gf,lf,district]);
-    var url = "http://127.0.0.1:5000/predict";
+    var url = "https://house-price-prediction-paris.herokuapp.com/predict";
     var headers = {"Content-Type": "application/json"}
     var tab = [area,rooms,bedrooms,bath,apart_floor,build_floor,cellar,parking,balc,renovated,gf,lf,district]
     var data = {input: JSON.stringify(tab)}
