@@ -41,6 +41,9 @@ def load_encoder():
         encoder=data['encoder']
     return encoder
 
+@app.route('/')
+def home():
+    return render_template('../UI_House/index.html')
 
 @app.route('/predict', methods=['POST'])
 def predict():
