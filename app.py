@@ -1,6 +1,6 @@
 import flask
 from flask import Flask, jsonify, request,render_template
-from flask_cors import CORS
+#from flask_cors import CORS
 import json
 import pickle
 import numpy as np
@@ -9,7 +9,7 @@ import pandas as pd
 import os
 
 app = Flask(__name__)
-CORS(app)
+#CORS(app)
 app._static_folder = os.path.abspath("templates/static/")
 
 def load_models():
