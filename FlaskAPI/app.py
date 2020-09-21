@@ -1,5 +1,5 @@
 import flask
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request,render_template
 from flask_cors import CORS
 import json
 import pickle
