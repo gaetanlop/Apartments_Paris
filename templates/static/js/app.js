@@ -117,7 +117,7 @@ function onClickedEstimatePrice() {
     var tab = [area,rooms,bedrooms,bath,apart_floor,build_floor,cellar,parking,balc,renovated,gf,lf,district]
     var data = {input: JSON.stringify(tab)}
 
-    $.post(url, data
+    $.post("https://house-price-prediction-paris.herokuapp.com/predict", data
     ,function(data, status) {
         console.log(data.estimated_price);
        estPrice.innerHTML= "<h2>" + data.estimated_price.toString() + " € </h2>";
