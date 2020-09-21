@@ -62,7 +62,7 @@ def predict():
 
     # load model
     model = load_models()
-    prediction = str(np.exp(model.predict(data_out)[0])*1000)
+    prediction = int(np.exp(model.predict(data_out)[0])*1000)
     response = jsonify({
         'estimated_price': prediction
     })
