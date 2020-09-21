@@ -6,7 +6,6 @@ import pickle
 import numpy as np
 from data_input import data_in
 import pandas as pd
-from app import app as application
 
 app = Flask(__name__)
 CORS(app)
@@ -69,4 +68,4 @@ def predict():
     })
     return response, 200
 if __name__ == '__main__':
-    application.run(debug=True)
+    app.run(debug=True)
