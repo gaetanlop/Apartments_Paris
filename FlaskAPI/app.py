@@ -6,6 +6,7 @@ import pickle
 import numpy as np
 from data_input import data_in
 import pandas as pd
+import os
 
 app = Flask(__name__)
 CORS(app)
