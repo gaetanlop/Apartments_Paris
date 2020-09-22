@@ -91,6 +91,6 @@ The Stack Model outperformed the other approaches on the validation set. Here ar
 
 ## Productionization and Deployment
 ADD SOMETHING ON IT. WHAT I HAVE DONE
-
+DONE ON AWS EC2 INSTANCE AND HEROKU.
 
 
