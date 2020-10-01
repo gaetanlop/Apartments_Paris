@@ -1,6 +1,6 @@
 # Paris Real Estate Price Prediction APP: Project Overview
 * **Final Product Hosted On Heroku:** https://house-price-prediction-paris.herokuapp.com/
-*   Created a tool that estimates the price of an apartment in Paris in 2020 (MAE ~ € 74 K) to help people finding the best price to sold or buy an apartment.
+*   Created a web app that estimates the price of an apartment in Paris in 2020 (MAE ~ € 74 K) to help people finding the best price to sold or buy an apartment.
 *   Such a tool can be used to help people finding the best price to sold or buy an apartment. It also can be used by real estate companies to give an estimation of the price of an apartment of one of their clients before sending an expert to check the apartment.
 *   Scraped more than 4000 sell announcements of apartments in Paris from LogicImmo website using python and selenium.
 *   Engineered features from the text of each announcements description to get the different caracteristics of an apartment in Paris such as balcony, patio, cellar, parking, floor of the apartment, floor of the building.
