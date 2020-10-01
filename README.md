@@ -1,6 +1,6 @@
 # Paris Real Estate Price Prediction: Project Overview
 
-**Final Product Hosted On Heroku:** https://house-price-prediction-paris.herokuapp.com/
+* **Final Product Hosted On Heroku:** https://house-price-prediction-paris.herokuapp.com/
 
 Recently, my family and I decided to buy a new apartment in Paris. It gave me the idea to try to understand how the price of an apartment is calculated and what are the main drivers that impact the sale price of an apartment in Paris.
 
