@@ -1,18 +1,16 @@
 # Paris Real Estate Price Prediction: Project Overview
+
+**Final Product Hosted On Heroku:** https://house-price-prediction-paris.herokuapp.com/
+
 Recently, my family and I decided to buy a new apartment in Paris. It gave me the idea to try to understand how the price of an apartment is calculated and what are the main drivers that impact the sale price of an apartment in Paris.
 
-* Created a tool that estimates the price of an apartment in Paris in 2020 (MAE ~ € 74 K) to help people finding the best price to sold or buy an apartment.
+*   Created a tool that estimates the price of an apartment in Paris in 2020 (MAE ~ € 74 K) to help people finding the best price to sold or buy an apartment.
 *   Scraped more than 4000 sell announcements of apartments in Paris from LogicImmo website using python and selenium.
 *   Engineered features from the text of each announcements description to get the different caracteristics of an apartment in Paris such as balcony, patio, cellar, parking, floor of the apartment, floor of the building.
 *   Optimized Linear, Lasso, Ridge, Random Forest Regressors and XGBoost Regressors using RandomizedSearchCV to reach the best model.
 *   Built a client facing API using flask.
 *   Used HTML, CSS, JS for the UI.
-*   Used AWS to put the model in production.
-
-## Final Product Hosted On Heroku
-
-https://house-price-prediction-paris.herokuapp.com/
-
+*   Deployed the model on AWS EC2 instance and on Heroku.
 
 ## Code and Resources Used
 
@@ -90,7 +88,6 @@ The Stack Model outperformed the other approaches on the validation set. Here ar
 * **Stacked Model**: MAE=74.9
 
 ## Productionization and Deployment
-ADD SOMETHING ON IT. WHAT I HAVE DONE
-DONE ON AWS EC2 INSTANCE AND HEROKU.
+I built a client facing API using Flask and deployed it using heroku.
 
 
