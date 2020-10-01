@@ -89,6 +89,6 @@ The Stack Model outperformed the other approaches on the validation set. Here ar
 
 ## Productionization and Deployment
 I built a client facing API using Flask and deployed it using heroku.
-**Final Product Hosted On Heroku:** https://house-price-prediction-paris.herokuapp.com/
+* **Final Product Hosted On Heroku:** https://house-price-prediction-paris.herokuapp.com/
 
 
