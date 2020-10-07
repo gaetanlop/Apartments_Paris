@@ -65,9 +65,9 @@ Before starting the EDA I made a few assumptions, I tried to find out if they we
 I made a univariate and bivariate analysis of the column SalePrice witht the features that I thought were most interesting.I looked at the distributions of the numerical features and I transformed the skewed numerical features using log trnasformation. I also looked at the value counts for the various categorical variables. I detected and removed outliers. I explored the colinearity between the different features. I made pivot_tables to undertand the relationship between SalePrice and the different categorical features.
 Below are a few highlights from the things I looked at.
 
-![alt text](https://github.com/gaetanlop/ds_project_house/blob/master/Heatmap.png)
-![alt text](https://github.com/gaetanlop/ds_project_house/blob/master/bedrooms.PNG)
-![alt text](https://github.com/gaetanlop/ds_project_house/blob/master/disrict_average_price.PNG)
+![alt text](https://github.com/gaetanlop/ds_project_house/blob/master/images/Heatmap.png)
+![alt text](https://github.com/gaetanlop/ds_project_house/blob/master/images/bedrooms.PNG)
+![alt text](https://github.com/gaetanlop/ds_project_house/blob/master/images/disrict_average_price.PNG)
 
 ## Model Building
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
